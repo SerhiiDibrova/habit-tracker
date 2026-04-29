@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(d['version']\\)\")",
+      "Bash(.venv/bin/pip install *)",
+      "Bash(python3 -m venv .venv)",
+      "Bash(.venv/bin/python -c \"import fastapi; print\\('fastapi ok'\\)\")",
+      "Bash(.venv/bin/pip --version)"
+    ]
+  }
+}
